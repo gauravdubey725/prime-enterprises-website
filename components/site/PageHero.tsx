@@ -36,10 +36,13 @@ export default function PageHero({
             alt=""
             className="h-full w-full object-cover"
           />
-          {/* Gradient overlay — keeps image visible while ensuring text contrast */}
-          <div className="absolute inset-0 bg-gradient-to-r from-foreground/70 via-foreground/40 to-foreground/20" />
+          {/* Multi-layer overlay for depth */}
+          <div className="absolute inset-0 bg-gradient-to-r from-foreground/80 via-foreground/50 to-foreground/20" />
+          <div className="absolute inset-0 bg-gradient-to-t from-foreground/50 via-transparent to-transparent" />
         </div>
       )}
+      {/* Accent line */}
+      {image && <div className="absolute left-0 top-0 hidden h-full w-1 bg-accent md:block" />}
       <Container
         className={cn(
           'relative py-24 md:py-32 lg:py-36',
@@ -50,10 +53,11 @@ export default function PageHero({
           {eyebrow && (
             <span
               className={cn(
-                'mb-4 block text-xs font-heading font-semibold uppercase tracking-[0.2em]',
+                'mb-4 inline-flex items-center gap-3 text-xs font-heading font-semibold uppercase tracking-[0.2em]',
                 image ? 'text-accent' : 'text-accent'
               )}
             >
+              {image && <span className="h-px w-8 bg-accent" />}
               {eyebrow}
             </span>
           )}

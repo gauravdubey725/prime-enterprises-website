@@ -170,7 +170,7 @@ export const products: Product[] = [
       'Edge painting and finishing',
     ],
     materials: [
-      'Genuine cow leather',
+      'Genuine leather',
       'PU leather (vegan)',
       'Microfibre leather alternative',
       'Suede finish options',

@@ -93,7 +93,7 @@ export default function ContactPage() {
                     Get in touch
                   </h2>
                   <p className="mt-3 text-sm leading-relaxed text-foreground-secondary">
-                    Share your product requirements and we&apos;ll guide you through
+                    Share your product requirements and we'll guide you through
                     sampling, pricing, and production.
                   </p>
                 </div>
@@ -223,7 +223,7 @@ export default function ContactPage() {
                       Request a Quote
                     </h2>
                     <p className="mt-2 text-sm text-foreground-secondary">
-                      Fill in the details below and we&apos;ll get back to you.
+                      Fill in the details below and we'll get back to you.
                     </p>
                     <form onSubmit={handleSubmit} className="mt-8 space-y-5" noValidate>
                       <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
