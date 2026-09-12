@@ -36,9 +36,11 @@ export const products: Product[] = [
     image: images.hangTagsMain,
     galleryImages: [
       images.hangTagsOnFabric,
-      images.hangTagsStyled,
+      images.hangTagsColorful,
+      images.hangTagsKraft,
       images.hangTagsFlatlay,
-      images.hangTagsCardboard,
+      images.hangTagsOnHanger,
+      images.hangTagsAssorted,
     ],
     customization: [
       'Custom shapes and sizes (die-cut available)',
@@ -96,10 +98,12 @@ export const products: Product[] = [
       'Woven labels are the industry standard for durable garment branding. We produce high-density woven labels using advanced needle looms, offering damask, satin, and taffeta weaves to suit different detail and texture requirements. With fine yarn counts and precise colour matching, our woven labels deliver sharp text, clean logos, and a soft hand-feel that stands up to repeated washing and wear.',
     image: images.wovenLabelCloseup,
     galleryImages: [
-      images.wovenFabricTexture,
-      images.wovenWoolFibers,
-      images.wovenFloralPattern,
-      images.wovenBrownKnit,
+      images.wovenLabelPortugal,
+      images.wovenLabelCloth,
+      images.wovenLabelDenim,
+      images.wovenLabelScattered,
+      images.wovenLabelSweatshirt,
+      images.wovenLabelStriped,
     ],
     customization: [
       'Damask, satin, or taffeta weave',
@@ -155,9 +159,12 @@ export const products: Product[] = [
       'Leather labels add a tactile, premium quality to garments that paper and woven labels cannot match. We offer genuine leather, PU (vegan) leather, and microfibre alternatives, with branding applied through debossing, embossing, hot foil stamping, or laser engraving. Each patch is cut to your exact shape and size, with options for stitching holes, adhesive backing, or heat-seal backing for easy application.',
     image: images.leatherPatchDenim,
     galleryImages: [
-      images.leatherPatchBlank,
       images.leatherPatchDetail,
-      images.wovenBrownKnit,
+      images.leatherPatchJacron,
+      images.leatherPatchEmbossed,
+      images.leatherPatchBrown,
+      images.leatherPatchJeansStack,
+      images.leatherPatchNoir,
     ],
     customization: [
       'Genuine leather, PU leather, or microfibre',
@@ -212,11 +219,14 @@ export const products: Product[] = [
       'High-resolution printed labels on satin, cotton, or polyester tape — perfect for care labels, size labels, and brand identifiers with fine text and multi-colour printing.',
     longDescription:
       'Printed labels offer an efficient, versatile solution for care instructions, size information, and brand identification. We print on satin, cotton, and polyester tapes using high-resolution printing that delivers crisp, legible text — even at very small sizes. Available in single or multi-colour, with options for sequential sizing, barcodes, and QR codes, our printed labels are soft, wash-durable, and cost-effective for high-volume production.',
-    image: images.printedLabelFabric,
+    image: images.printedLabelCotton,
     galleryImages: [
-      images.hangTagsOnFabric,
-      images.wovenFabricTexture,
-      images.hangTagsStyled,
+      images.printedLabelSizeTag,
+      images.printedLabelCollar,
+      images.printedLabelStriped,
+      images.printedLabelDress,
+      images.printedLabelScattered,
+      images.printedLabelGreen,
     ],
     customization: [
       'Satin, cotton, or polyester tape',
@@ -271,11 +281,14 @@ export const products: Product[] = [
       'Heat transfer labels and tags that fuse directly into garments for a tagless, lightweight finish — ideal for activewear, innerwear, and babywear.',
     longDescription:
       'Heat transfer labels provide a tagless branding solution that fuses directly into the fabric, eliminating the bulk and itch of traditional sewn labels. We produce high-quality heat transfers using durable, stretchable, and skin-safe materials that bond permanently to cotton, polyester, blends, and performance fabrics. Our transfers are wash-tested, stretch-resistant, and certified skin-safe — making them the preferred choice for activewear, innerwear, and babywear brands.',
-    image: images.wovenFabricTexture,
+    image: images.heatTransferPress,
     galleryImages: [
-      images.wovenBrownKnit,
-      images.wovenFloralPattern,
-      images.fabricRolls,
+      images.heatTransferIron,
+      images.heatTransferPrinting,
+      images.heatTransferMachine,
+      images.heatTransferTagless,
+      images.heatTransferWorkshop,
+      images.heatTransferScreen,
     ],
     customization: [
       'Stretchable transfers for performance fabrics',
@@ -335,6 +348,8 @@ export const products: Product[] = [
       images.packagingWarehouse,
       images.packagingOrganized,
       images.packagingBoxesStack,
+      images.packagingGarmentBox,
+      images.packagingTissue,
     ],
     customization: [
       'Custom-printed poly bags and sleeves',
@@ -378,6 +393,68 @@ export const products: Product[] = [
       },
     ],
     featured: true,
+  },
+  {
+    slug: 'corporate-gifting',
+    name: 'Corporate Gifting',
+    shortName: 'Gifting',
+    href: '/products/corporate-gifting',
+    tagline: 'Premium branded gift boxes for clients, teams, and events',
+    description:
+      'Custom corporate gift boxes with branded packaging, inserts, and personalized accessories — designed to make a memorable impression for client gifting, employee onboarding, and event giveaways.',
+    longDescription:
+      'Corporate gifting is a powerful way to strengthen business relationships and reinforce brand identity. We design and assemble premium corporate gift boxes with custom-branded packaging, tailored inserts, and a curated selection of accessories. From executive gift sets to employee welcome kits and event giveaways, every box is designed to reflect your brand values and create a memorable unboxing experience.',
+    image: images.giftingMain,
+    galleryImages: [
+      images.giftingBox,
+      images.giftingUnboxing,
+      images.giftingRibbon,
+      images.giftingArranged,
+      images.giftingNavy,
+      images.giftingTwoBoxes,
+    ],
+    customization: [
+      'Custom-branded gift boxes and sleeves',
+      'Personalized inserts and dividers',
+      'Foil stamping and embossing on packaging',
+      'Custom tissue paper and wrapping',
+      'Branded notebooks, mugs, and accessories',
+      'Handwritten note cards',
+      'Variable data printing for recipient names',
+      'Eco-friendly and recyclable materials',
+    ],
+    materials: [
+      'Rigid board gift boxes',
+      'Kraft and coated paper',
+      'Recycled and FSC-certified paper',
+      'Fabric-lined interiors',
+    ],
+    applications: [
+      'Client appreciation gifts',
+      'Employee onboarding kits',
+      'Event and conference giveaways',
+      'Festive and seasonal gifting',
+      'VIP and executive gifts',
+      'Trade show and promotional kits',
+    ],
+    whyChoose: [
+      {
+        title: 'End-to-End Curation',
+        description:
+          'From box design to accessory sourcing, we manage the entire gifting package so you don\'t have to coordinate multiple vendors.',
+      },
+      {
+        title: 'Brand-Forward Presentation',
+        description:
+          'Every element — box, tissue, insert, and card — is designed to reinforce your brand identity at the moment of unboxing.',
+      },
+      {
+        title: 'Scalable Fulfilment',
+        description:
+          'Whether it is 50 boxes or 5,000, we handle assembly, personalization, and dispatch with consistent quality.',
+      },
+    ],
+    featured: false,
   },
 ];
 

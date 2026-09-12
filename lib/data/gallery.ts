@@ -19,7 +19,8 @@ export type GalleryCategory =
   | 'Tags'
   | 'Printing'
   | 'Packaging'
-  | 'Manufacturing';
+  | 'Manufacturing'
+  | 'Gifting';
 
 export const galleryCategories: GalleryCategory[] = [
   'All',
@@ -28,6 +29,7 @@ export const galleryCategories: GalleryCategory[] = [
   'Printing',
   'Packaging',
   'Manufacturing',
+  'Gifting',
 ];
 
 export const galleryItems: GalleryItem[] = [
@@ -103,8 +105,8 @@ export const galleryItems: GalleryItem[] = [
   },
   {
     id: 'g11',
-    src: images.wovenFabricTexture,
-    alt: 'Close-up of white knitted fabric texture',
+    src: images.wovenLabelPortugal,
+    alt: 'Scattered textile labels on white background',
     category: 'Labels',
     span: 'normal',
   },
@@ -156,5 +158,89 @@ export const galleryItems: GalleryItem[] = [
     alt: 'Industrial printing machine processing paper sheets',
     category: 'Printing',
     span: 'wide',
+  },
+  {
+    id: 'g19',
+    src: images.hangTagsColorful,
+    alt: 'Bright paper card tags arranged on a white surface',
+    category: 'Tags',
+    span: 'normal',
+  },
+  {
+    id: 'g20',
+    src: images.hangTagsOnHanger,
+    alt: 'Green shirt on a hanger with label tag on a clothing rack',
+    category: 'Tags',
+    span: 'tall',
+  },
+  {
+    id: 'g21',
+    src: images.leatherPatchEmbossed,
+    alt: 'Handmade leather card holder with embossed logo',
+    category: 'Labels',
+    span: 'normal',
+  },
+  {
+    id: 'g22',
+    src: images.leatherPatchJeansStack,
+    alt: 'Stack of blue, dark, and black denim jeans folded on a dark surface',
+    category: 'Labels',
+    span: 'wide',
+  },
+  {
+    id: 'g23',
+    src: images.packagingGarmentBox,
+    alt: 'Minimalist garment folded inside a cardboard packaging box',
+    category: 'Packaging',
+    span: 'normal',
+  },
+  {
+    id: 'g24',
+    src: images.packagingTissue,
+    alt: 'Folded green knit garment in eco-friendly packaging with tissue paper',
+    category: 'Packaging',
+    span: 'tall',
+  },
+  {
+    id: 'g25',
+    src: images.giftingBox,
+    alt: 'Elegant gift box with red leather accessory and keychain',
+    category: 'Gifting',
+    span: 'tall',
+  },
+  {
+    id: 'g26',
+    src: images.giftingUnboxing,
+    alt: 'Hands holding a branded gift box on a wooden table',
+    category: 'Gifting',
+    span: 'normal',
+  },
+  {
+    id: 'g27',
+    src: images.giftingRibbon,
+    alt: 'Gift box wrapped in golden ribbon on a wooden surface',
+    category: 'Gifting',
+    span: 'normal',
+  },
+  {
+    id: 'g28',
+    src: images.giftingArranged,
+    alt: 'Stylish branded gift boxes arranged on a wooden table',
+    category: 'Gifting',
+    span: 'large',
+  },
+  {
+    id: 'g29',
+    src: images.heatTransferScreen,
+    alt: 'Artist screen printing a t-shirt in a workshop',
+    category: 'Printing',
+    span: 'normal',
+  },
+  {
+    id: 'g30',
+    src: images.wovenLabelSweatshirt,
+    alt: 'Minimalist beige sweatshirt with clothing tags on yellow background',
+    category: 'Labels',
+    span: 'normal',
   },
 ];

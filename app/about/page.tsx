@@ -122,13 +122,13 @@ export default function AboutPage() {
               {
                 title: 'Printed Labels',
                 desc: 'Care labels, size labels, and brand identifiers on satin and polyester.',
-                image: images.printedLabelFabric,
+                image: images.printedLabelCotton,
                 href: '/products/printed-labels',
               },
               {
                 title: 'Heat Transfer',
                 desc: 'Tagless, seamless branding for activewear and innerwear.',
-                image: images.wovenFabricTexture,
+                image: images.heatTransferPress,
                 href: '/products/heat-transfer',
               },
               {

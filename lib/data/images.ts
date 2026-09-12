@@ -27,7 +27,7 @@ export const images = {
 
   // Hang tags
   hangTagsMain:
-    'https://images.pexels.com/photos/6441572/pexels-photo-6441572.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    'https://images.pexels.com/photos/7967275/pexels-photo-7967275.jpeg?auto=compress&cs=tinysrgb&w=1920',
   hangTagsOnFabric:
     'https://images.pexels.com/photos/11134390/pexels-photo-11134390.jpeg?auto=compress&cs=tinysrgb&w=1920',
   hangTagsStyled:
@@ -38,30 +38,106 @@ export const images = {
     'https://images.pexels.com/photos/9594082/pexels-photo-9594082.jpeg?auto=compress&cs=tinysrgb&w=1920',
   hangTagsCardboard:
     'https://images.pexels.com/photos/9594419/pexels-photo-9594419.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  hangTagsKraft:
+    'https://images.pexels.com/photos/8148580/pexels-photo-8148580.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  hangTagsString:
+    'https://images.pexels.com/photos/998501/pexels-photo-998501.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  hangTagsCardboardTags:
+    'https://images.pexels.com/photos/735275/pexels-photo-735275.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  hangTagsMinimal:
+    'https://images.pexels.com/photos/6441571/pexels-photo-6441571.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  hangTagsColorful:
+    'https://images.pexels.com/photos/1111313/pexels-photo-1111313.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  hangTagsOnHanger:
+    'https://images.pexels.com/photos/9594681/pexels-photo-9594681.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  hangTagsPriceTag:
+    'https://images.pexels.com/photos/11485130/pexels-photo-11485130.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  hangTagsAssorted:
+    'https://images.pexels.com/photos/9594096/pexels-photo-9594096.jpeg?auto=compress&cs=tinysrgb&w=1920',
 
   // Woven labels / fabric
   wovenLabelCloseup:
     'https://images.pexels.com/photos/34143410/pexels-photo-34143410.jpeg?auto=compress&cs=tinysrgb&w=1920',
   wovenFabricTexture:
-    'https://images.pexels.com/photos/6843269/pexels-photo-6843269.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    'https://images.pexels.com/photos/9594147/pexels-photo-9594147.jpeg?auto=compress&cs=tinysrgb&w=1920',
   wovenWoolFibers:
     'https://images.pexels.com/photos/37955302/pexels-photo-37955302.jpeg?auto=compress&cs=tinysrgb&w=1920',
   wovenFloralPattern:
     'https://images.pexels.com/photos/36353558/pexels-photo-36353558.jpeg?auto=compress&cs=tinysrgb&w=1920',
   wovenBrownKnit:
     'https://images.pexels.com/photos/10221760/pexels-photo-10221760.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  wovenLabelPortugal:
+    'https://images.pexels.com/photos/28460403/pexels-photo-28460403.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  wovenLabelCloth:
+    'https://images.pexels.com/photos/8148725/pexels-photo-8148725.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  wovenLabelScattered:
+    'https://images.pexels.com/photos/9594151/pexels-photo-9594151.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  wovenLabelDenim:
+    'https://images.pexels.com/photos/8442858/pexels-photo-8442858.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  wovenLabelSweatshirt:
+    'https://images.pexels.com/photos/9594144/pexels-photo-9594144.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  wovenLabelStriped:
+    'https://images.pexels.com/photos/12960395/pexels-photo-12960395.jpeg?auto=compress&cs=tinysrgb&w=1920',
 
   // Leather labels / patches
   leatherPatchDenim:
-    'https://images.pexels.com/photos/8442859/pexels-photo-8442859.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    'https://images.pexels.com/photos/6275936/pexels-photo-6275936.jpeg?auto=compress&cs=tinysrgb&w=1920',
   leatherPatchBlank:
     'https://images.pexels.com/photos/6275936/pexels-photo-6275936.jpeg?auto=compress&cs=tinysrgb&w=1920',
   leatherPatchDetail:
     'https://images.pexels.com/photos/6275959/pexels-photo-6275959.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  leatherPatchJacron:
+    'https://images.pexels.com/photos/6275977/pexels-photo-6275977.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  leatherPatchBlack:
+    'https://images.pexels.com/photos/9789601/pexels-photo-9789601.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  leatherPatchBranded:
+    'https://images.pexels.com/photos/15777406/pexels-photo-15777406.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  leatherPatchBrown:
+    'https://images.pexels.com/photos/8188774/pexels-photo-8188774.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  leatherPatchEmbossed:
+    'https://images.pexels.com/photos/5963137/pexels-photo-5963137.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  leatherPatchJeansStack:
+    'https://images.pexels.com/photos/1598507/pexels-photo-1598507.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  leatherPatchNoir:
+    'https://images.pexels.com/photos/6035288/pexels-photo-6035288.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  leatherPatchButton:
+    'https://images.pexels.com/photos/5729403/pexels-photo-5729403.jpeg?auto=compress&cs=tinysrgb&w=1920',
 
   // Printed labels
-  printedLabelFabric:
-    'https://images.pexels.com/photos/11134390/pexels-photo-11134390.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  printedLabelCotton:
+    'https://images.pexels.com/photos/3775379/pexels-photo-3775379.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  printedLabelSizeTag:
+    'https://images.pexels.com/photos/7441481/pexels-photo-7441481.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  printedLabelCollar:
+    'https://images.pexels.com/photos/12944657/pexels-photo-12944657.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  printedLabelStriped:
+    'https://images.pexels.com/photos/12960395/pexels-photo-12960395.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  printedLabelDress:
+    'https://images.pexels.com/photos/2491123/pexels-photo-2491123.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  printedLabelScattered:
+    'https://images.pexels.com/photos/9594078/pexels-photo-9594078.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  printedLabelGreen:
+    'https://images.pexels.com/photos/9594681/pexels-photo-9594681.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  printedLabelBeige:
+    'https://images.pexels.com/photos/11417942/pexels-photo-11417942.jpeg?auto=compress&cs=tinysrgb&w=1920',
+
+  // Heat transfer labels
+  heatTransferPress:
+    'https://images.pexels.com/photos/33650428/pexels-photo-33650428.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  heatTransferIron:
+    'https://images.pexels.com/photos/7703649/pexels-photo-7703649.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  heatTransferPrinting:
+    'https://images.pexels.com/photos/33650427/pexels-photo-33650427.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  heatTransferMachine:
+    'https://images.pexels.com/photos/9314012/pexels-photo-9314012.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  heatTransferTagless:
+    'https://images.pexels.com/photos/33650426/pexels-photo-33650426.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  heatTransferWorkshop:
+    'https://images.pexels.com/photos/33650433/pexels-photo-33650433.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  heatTransferScreen:
+    'https://images.pexels.com/photos/33650424/pexels-photo-33650424.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  heatTransferBranded:
+    'https://images.pexels.com/photos/32963962/pexels-photo-32963962.jpeg?auto=compress&cs=tinysrgb&w=1920',
 
   // Printing
   printingPress:
@@ -86,6 +162,40 @@ export const images = {
     'https://images.pexels.com/photos/6169043/pexels-photo-6169043.jpeg?auto=compress&cs=tinysrgb&w=1920',
   packagingBoxesStack:
     'https://images.pexels.com/photos/7203976/pexels-photo-7203976.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  packagingGarmentBox:
+    'https://images.pexels.com/photos/9594426/pexels-photo-9594426.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  packagingTissue:
+    'https://images.pexels.com/photos/9594432/pexels-photo-9594432.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  packagingEco:
+    'https://images.pexels.com/photos/9594421/pexels-photo-9594421.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  packagingFolding:
+    'https://images.pexels.com/photos/9594415/pexels-photo-9594415.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  packagingTshirt:
+    'https://images.pexels.com/photos/7310095/pexels-photo-7310095.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  packagingPolyBag:
+    'https://images.pexels.com/photos/4440867/pexels-photo-4440867.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  packagingTissuePaper:
+    'https://images.pexels.com/photos/5556280/pexels-photo-5556280.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  packagingShoppingBag:
+    'https://images.pexels.com/photos/5556285/pexels-photo-5556285.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  packagingClothBox:
+    'https://images.pexels.com/photos/9594428/pexels-photo-9594428.jpeg?auto=compress&cs=tinysrgb&w=1920',
+
+  // Corporate gifting
+  giftingMain:
+    'https://images.pexels.com/photos/10757833/pexels-photo-10757833.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  giftingBox:
+    'https://images.pexels.com/photos/33202799/pexels-photo-33202799.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  giftingUnboxing:
+    'https://images.pexels.com/photos/37326538/pexels-photo-37326538.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  giftingRibbon:
+    'https://images.pexels.com/photos/12080065/pexels-photo-12080065.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  giftingArranged:
+    'https://images.pexels.com/photos/33428411/pexels-photo-33428411.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  giftingNavy:
+    'https://images.pexels.com/photos/4464882/pexels-photo-4464882.jpeg?auto=compress&cs=tinysrgb&w=1920',
+  giftingTwoBoxes:
+    'https://images.pexels.com/photos/13975271/pexels-photo-13975271.jpeg?auto=compress&cs=tinysrgb&w=1920',
 
   // Fabric / textile
   fabricRolls:
