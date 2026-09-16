@@ -104,13 +104,13 @@ export default function AboutPage() {
               {
                 title: 'Hang Tags',
                 desc: 'Custom-designed tags in a range of papers, finishes, and die-cut shapes.',
-                image: images.hangTagsStyled,
+                image: images.hangTagsFeatured,
                 href: '/products/hang-tags',
               },
               {
                 title: 'Woven Labels',
                 desc: 'High-density damask, satin, and taffeta labels with fine detail.',
-                image: images.wovenLabelCloseup,
+                image: images.wovenLabelsApproved,
                 href: '/products/woven-labels',
               },
               {
@@ -122,7 +122,7 @@ export default function AboutPage() {
               {
                 title: 'Printed Labels',
                 desc: 'Care labels, size labels, and brand identifiers on satin and polyester.',
-                image: images.printedLabelCotton,
+                image: images.printedLabelsApproved,
                 href: '/products/printed-labels',
               },
               {
@@ -134,7 +134,7 @@ export default function AboutPage() {
               {
                 title: 'Packaging',
                 desc: 'Custom poly bags, boxes, mailers, and branded inserts.',
-                image: images.packagingBoxes,
+                image: images.packagingApproved,
                 href: '/products/packaging',
               },
             ].map((item, i) => (

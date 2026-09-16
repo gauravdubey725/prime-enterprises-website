@@ -5,6 +5,18 @@
  */
 
 export const images = {
+  // Client-approved product imagery
+  hangTagsBanner: '/images/Hang%20Tag%20Banner.jpeg',
+  hangTagsFeatured: '/images/Hang%20Tag%20Featured.jpeg',
+  printedLabelsApproved: '/images/Printed%20Labels.jpeg',
+  wovenLabelsApproved: '/images/Woven%20Labels.jpeg',
+  packagingApproved: '/images/Packaging.jpeg',
+  packagingApprovedSecondary: '/images/Packaging%201.jpeg',
+  giftingApprovedMain: '/images/WhatsApp%20Image%202026-09-15%20at%2010.37.53%20AM.jpeg',
+  giftingApprovedGallery1: '/images/WhatsApp%20Image%202026-09-15%20at%2010.37.52%20AM.jpeg',
+  giftingApprovedGallery2: '/images/WhatsApp%20Image%202026-09-15%20at%2010.37.53%20AM%20(1).jpeg',
+  giftingApprovedGallery3: '/images/WhatsApp%20Image%202026-09-15%20at%2010.37.53%20AM%20(2).jpeg',
+
   // Hero / manufacturing
   heroMain:
     'https://images.pexels.com/photos/17710109/pexels-photo-17710109.jpeg?auto=compress&cs=tinysrgb&w=1920',
@@ -27,11 +39,11 @@ export const images = {
 
   // Hang tags
   hangTagsMain:
-    'https://images.pexels.com/photos/7967275/pexels-photo-7967275.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    '/images/Hang%20Tag%20Banner.jpeg',
   hangTagsOnFabric:
     'https://images.pexels.com/photos/11134390/pexels-photo-11134390.jpeg?auto=compress&cs=tinysrgb&w=1920',
   hangTagsStyled:
-    'https://images.pexels.com/photos/9594084/pexels-photo-9594084.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    '/images/Hang%20Tag%20Featured.jpeg',
   hangTagsFlatlay:
     'https://images.pexels.com/photos/9594093/pexels-photo-9594093.jpeg?auto=compress&cs=tinysrgb&w=1920',
   hangTagsFloating:
@@ -57,7 +69,7 @@ export const images = {
 
   // Woven labels / fabric
   wovenLabelCloseup:
-    'https://images.pexels.com/photos/34143410/pexels-photo-34143410.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    '/images/Woven%20Labels.jpeg',
   wovenFabricTexture:
     'https://images.pexels.com/photos/9594147/pexels-photo-9594147.jpeg?auto=compress&cs=tinysrgb&w=1920',
   wovenWoolFibers:
@@ -105,7 +117,7 @@ export const images = {
 
   // Printed labels
   printedLabelCotton:
-    'https://images.pexels.com/photos/3775379/pexels-photo-3775379.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    '/images/Printed%20Labels.jpeg',
   printedLabelSizeTag:
     'https://images.pexels.com/photos/7441481/pexels-photo-7441481.jpeg?auto=compress&cs=tinysrgb&w=1920',
   printedLabelCollar:
@@ -153,7 +165,7 @@ export const images = {
 
   // Packaging
   packagingBoxes:
-    'https://images.pexels.com/photos/6407567/pexels-photo-6407567.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    '/images/Packaging.jpeg',
   packagingShipping:
     'https://images.pexels.com/photos/6169055/pexels-photo-6169055.jpeg?auto=compress&cs=tinysrgb&w=1920',
   packagingWarehouse:
@@ -183,7 +195,7 @@ export const images = {
 
   // Corporate gifting
   giftingMain:
-    'https://images.pexels.com/photos/10757833/pexels-photo-10757833.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    '/images/WhatsApp%20Image%202026-09-15%20at%2010.37.53%20AM.jpeg',
   giftingBox:
     'https://images.pexels.com/photos/33202799/pexels-photo-33202799.jpeg?auto=compress&cs=tinysrgb&w=1920',
   giftingUnboxing:

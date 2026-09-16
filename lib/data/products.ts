@@ -33,8 +33,9 @@ export const products: Product[] = [
       'Custom-designed hang tags in a wide range of papers, finishes and shapes — crafted to communicate your brand identity at the point of sale.',
     longDescription:
       'Hang tags are the first physical touchpoint between your brand and your customer. We manufacture premium hang tags in a wide range of materials — from textured kraft and uncoated cardstock to high-gloss coated stocks — with finishing options including foil stamping, embossing, debossing, spot UV, and die-cut shapes. Every tag is designed and produced to match your brand specifications precisely.',
-    image: images.hangTagsMain,
+    image: images.hangTagsBanner,
     galleryImages: [
+      images.hangTagsFeatured,
       images.hangTagsOnFabric,
       images.hangTagsColorful,
       images.hangTagsKraft,
@@ -96,7 +97,7 @@ export const products: Product[] = [
       'High-density woven labels with crisp detail and soft texture — available in damask, satin, and taffeta weaves with custom designs and edge finishes.',
     longDescription:
       'Woven labels are the industry standard for durable garment branding. We produce high-density woven labels using advanced needle looms, offering damask, satin, and taffeta weaves to suit different detail and texture requirements. With fine yarn counts and precise colour matching, our woven labels deliver sharp text, clean logos, and a soft hand-feel that stands up to repeated washing and wear.',
-    image: images.wovenLabelCloseup,
+    image: images.wovenLabelsApproved,
     galleryImages: [
       images.wovenLabelPortugal,
       images.wovenLabelCloth,
@@ -219,7 +220,7 @@ export const products: Product[] = [
       'High-resolution printed labels on satin, cotton, or polyester tape — perfect for care labels, size labels, and brand identifiers with fine text and multi-colour printing.',
     longDescription:
       'Printed labels offer an efficient, versatile solution for care instructions, size information, and brand identification. We print on satin, cotton, and polyester tapes using high-resolution printing that delivers crisp, legible text — even at very small sizes. Available in single or multi-colour, with options for sequential sizing, barcodes, and QR codes, our printed labels are soft, wash-durable, and cost-effective for high-volume production.',
-    image: images.printedLabelCotton,
+    image: images.printedLabelsApproved,
     galleryImages: [
       images.printedLabelSizeTag,
       images.printedLabelCollar,
@@ -342,8 +343,9 @@ export const products: Product[] = [
       'Custom garment packaging — poly bags, boxes, mailers, tissue paper, and branded inserts — designed to protect products and elevate the unboxing experience.',
     longDescription:
       'Packaging is the final brand touchpoint in your supply chain and the first your customer experiences. We manufacture custom garment packaging solutions including poly bags with custom printing, corrugated shipping boxes, branded mailers, tissue paper, and inserts. Every packaging solution is designed to protect garments through transit while reinforcing your brand identity at every layer of the unboxing experience.',
-    image: images.packagingBoxes,
+    image: images.packagingApproved,
     galleryImages: [
+      images.packagingApprovedSecondary,
       images.packagingShipping,
       images.packagingWarehouse,
       images.packagingOrganized,
@@ -404,14 +406,11 @@ export const products: Product[] = [
       'Custom corporate gift boxes with branded packaging, inserts, and personalized accessories — designed to make a memorable impression for client gifting, employee onboarding, and event giveaways.',
     longDescription:
       'Corporate gifting is a powerful way to strengthen business relationships and reinforce brand identity. We design and assemble premium corporate gift boxes with custom-branded packaging, tailored inserts, and a curated selection of accessories. From executive gift sets to employee welcome kits and event giveaways, every box is designed to reflect your brand values and create a memorable unboxing experience.',
-    image: images.giftingMain,
+    image: images.giftingApprovedMain,
     galleryImages: [
-      images.giftingBox,
-      images.giftingUnboxing,
-      images.giftingRibbon,
-      images.giftingArranged,
-      images.giftingNavy,
-      images.giftingTwoBoxes,
+      images.giftingApprovedGallery1,
+      images.giftingApprovedGallery2,
+      images.giftingApprovedGallery3,
     ],
     customization: [
       'Custom-branded gift boxes and sleeves',
