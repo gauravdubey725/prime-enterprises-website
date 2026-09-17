@@ -10,7 +10,7 @@ import { products } from '@/lib/data/products';
 export const metadata: Metadata = {
   title: 'Products',
   description:
-    'Explore our full range of garment accessories — hang tags, woven labels, leather labels, printed labels, heat transfer labels, and packaging solutions.',
+    'Explore our full range of garment accessories — corporate gifting, hang tags, woven labels, printed labels, heat transfer labels, and packaging solutions.',
 };
 
 export default function ProductsPage() {

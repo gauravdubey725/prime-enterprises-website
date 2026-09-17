@@ -91,7 +91,7 @@ export const images = {
   wovenLabelStriped:
     'https://images.pexels.com/photos/12960395/pexels-photo-12960395.jpeg?auto=compress&cs=tinysrgb&w=1920',
 
-  // Leather labels / patches
+  // Leather patch / label assets
   leatherPatchDenim:
     'https://images.pexels.com/photos/6275936/pexels-photo-6275936.jpeg?auto=compress&cs=tinysrgb&w=1920',
   leatherPatchBlank:

@@ -19,9 +19,9 @@ export const metadata: Metadata = {
     'Prime Enterprises provides premium garment accessories, labels, printing and packaging solutions for fashion brands and apparel businesses.',
   keywords: [
     'garment accessories',
+    'corporate gifting',
     'hang tags',
     'woven labels',
-    'leather labels',
     'printed labels',
     'heat transfer labels',
     'packaging solutions',

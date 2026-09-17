@@ -102,6 +102,12 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
             {[
               {
+                title: 'Corporate Gifting',
+                desc: 'Premium branded gift boxes, inserts, and accessories for client and team gifting.',
+                image: images.giftingApprovedMain,
+                href: '/products/corporate-gifting',
+              },
+              {
                 title: 'Hang Tags',
                 desc: 'Custom-designed tags in a range of papers, finishes, and die-cut shapes.',
                 image: images.hangTagsFeatured,
@@ -112,12 +118,6 @@ export default function AboutPage() {
                 desc: 'High-density damask, satin, and taffeta labels with fine detail.',
                 image: images.wovenLabelsApproved,
                 href: '/products/woven-labels',
-              },
-              {
-                title: 'Leather Labels',
-                desc: 'Genuine and PU leather patches with debossing and foil stamping.',
-                image: images.leatherPatchDenim,
-                href: '/products/leather-labels',
               },
               {
                 title: 'Printed Labels',

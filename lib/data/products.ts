@@ -24,6 +24,65 @@ export interface Product {
 
 export const products: Product[] = [
   {
+    slug: 'corporate-gifting',
+    name: 'Corporate Gifting',
+    shortName: 'Gifting',
+    href: '/products/corporate-gifting',
+    tagline: 'Premium branded gift boxes for clients, teams, and events',
+    description:
+      'Custom corporate gift boxes with branded packaging, inserts, and personalized accessories — designed to make a memorable impression for client gifting, employee onboarding, and event giveaways.',
+    longDescription:
+      'Corporate gifting is a powerful way to strengthen business relationships and reinforce brand identity. We design and assemble premium corporate gift boxes with custom-branded packaging, tailored inserts, and a curated selection of accessories. From executive gift sets to employee welcome kits and event giveaways, every box is designed to reflect your brand values and create a memorable unboxing experience.',
+    image: images.giftingApprovedMain,
+    galleryImages: [
+      images.giftingApprovedGallery1,
+      images.giftingApprovedGallery2,
+      images.giftingApprovedGallery3,
+    ],
+    customization: [
+      'Custom-branded gift boxes and sleeves',
+      'Personalized inserts and dividers',
+      'Foil stamping and embossing on packaging',
+      'Custom tissue paper and wrapping',
+      'Branded notebooks, mugs, and accessories',
+      'Handwritten note cards',
+      'Variable data printing for recipient names',
+      'Eco-friendly and recyclable materials',
+    ],
+    materials: [
+      'Rigid board gift boxes',
+      'Kraft and coated paper',
+      'Recycled and FSC-certified paper',
+      'Fabric-lined interiors',
+    ],
+    applications: [
+      'Client appreciation gifts',
+      'Employee onboarding kits',
+      'Event and conference giveaways',
+      'Festive and seasonal gifting',
+      'VIP and executive gifts',
+      'Trade show and promotional kits',
+    ],
+    whyChoose: [
+      {
+        title: 'End-to-End Curation',
+        description:
+          'From box design to accessory sourcing, we manage the entire gifting package so you don\'t have to coordinate multiple vendors.',
+      },
+      {
+        title: 'Brand-Forward Presentation',
+        description:
+          'Every element — box, tissue, insert, and card — is designed to reinforce your brand identity at the moment of unboxing.',
+      },
+      {
+        title: 'Scalable Fulfilment',
+        description:
+          'Whether it is 50 boxes or 5,000, we handle assembly, personalization, and dispatch with consistent quality.',
+      },
+    ],
+    featured: false,
+  },
+  {
     slug: 'hang-tags',
     name: 'Hang Tags',
     shortName: 'Hang Tags',
@@ -144,68 +203,6 @@ export const products: Product[] = [
         title: 'Wash-Tested Durability',
         description:
           'Labels are tested for colour fastness and structural integrity through repeated industrial wash cycles.',
-      },
-    ],
-    featured: true,
-  },
-  {
-    slug: 'leather-labels',
-    name: 'Leather Labels',
-    shortName: 'Leather Labels',
-    href: '/products/leather-labels',
-    tagline: 'Authentic leather and faux-leather patches with a premium feel',
-    description:
-      'Genuine leather, PU leather, and microfibre labels with debossed, embossed, or foil-stamped branding — ideal for denim, outerwear, and premium brands.',
-    longDescription:
-      'Leather labels add a tactile, premium quality to garments that paper and woven labels cannot match. We offer genuine leather, PU (vegan) leather, and microfibre alternatives, with branding applied through debossing, embossing, hot foil stamping, or laser engraving. Each patch is cut to your exact shape and size, with options for stitching holes, adhesive backing, or heat-seal backing for easy application.',
-    image: images.leatherPatchDenim,
-    galleryImages: [
-      images.leatherPatchDetail,
-      images.leatherPatchJacron,
-      images.leatherPatchEmbossed,
-      images.leatherPatchBrown,
-      images.leatherPatchJeansStack,
-      images.leatherPatchNoir,
-    ],
-    customization: [
-      'Genuine leather, PU leather, or microfibre',
-      'Debossing and embossing',
-      'Foil stamping (gold, silver, copper)',
-      'Laser engraving',
-      'Custom shapes and sizes',
-      'Pre-punched stitching holes',
-      'Heat-seal or adhesive backing',
-      'Edge painting and finishing',
-    ],
-    materials: [
-      'Genuine leather',
-      'PU leather (vegan)',
-      'Microfibre leather alternative',
-      'Suede finish options',
-    ],
-    applications: [
-      'Denim and jeans brands',
-      'Outerwear and jackets',
-      'Bags and leather goods',
-      'Premium and heritage brands',
-      'Workwear and uniforms',
-      'Caps and headwear',
-    ],
-    whyChoose: [
-      {
-        title: 'Authentic Materials',
-        description:
-          'Sourced genuine leather and high-quality PU alternatives that look and feel premium.',
-      },
-      {
-        title: 'Precise Branding',
-        description:
-          'Debossing and foil stamping applied with consistent pressure for clean, repeatable results.',
-      },
-      {
-        title: 'Application Ready',
-        description:
-          'Backing options — heat-seal, adhesive, or stitched — make integration into your production seamless.',
       },
     ],
     featured: true,
@@ -395,65 +392,6 @@ export const products: Product[] = [
       },
     ],
     featured: true,
-  },
-  {
-    slug: 'corporate-gifting',
-    name: 'Corporate Gifting',
-    shortName: 'Gifting',
-    href: '/products/corporate-gifting',
-    tagline: 'Premium branded gift boxes for clients, teams, and events',
-    description:
-      'Custom corporate gift boxes with branded packaging, inserts, and personalized accessories — designed to make a memorable impression for client gifting, employee onboarding, and event giveaways.',
-    longDescription:
-      'Corporate gifting is a powerful way to strengthen business relationships and reinforce brand identity. We design and assemble premium corporate gift boxes with custom-branded packaging, tailored inserts, and a curated selection of accessories. From executive gift sets to employee welcome kits and event giveaways, every box is designed to reflect your brand values and create a memorable unboxing experience.',
-    image: images.giftingApprovedMain,
-    galleryImages: [
-      images.giftingApprovedGallery1,
-      images.giftingApprovedGallery2,
-      images.giftingApprovedGallery3,
-    ],
-    customization: [
-      'Custom-branded gift boxes and sleeves',
-      'Personalized inserts and dividers',
-      'Foil stamping and embossing on packaging',
-      'Custom tissue paper and wrapping',
-      'Branded notebooks, mugs, and accessories',
-      'Handwritten note cards',
-      'Variable data printing for recipient names',
-      'Eco-friendly and recyclable materials',
-    ],
-    materials: [
-      'Rigid board gift boxes',
-      'Kraft and coated paper',
-      'Recycled and FSC-certified paper',
-      'Fabric-lined interiors',
-    ],
-    applications: [
-      'Client appreciation gifts',
-      'Employee onboarding kits',
-      'Event and conference giveaways',
-      'Festive and seasonal gifting',
-      'VIP and executive gifts',
-      'Trade show and promotional kits',
-    ],
-    whyChoose: [
-      {
-        title: 'End-to-End Curation',
-        description:
-          'From box design to accessory sourcing, we manage the entire gifting package so you don\'t have to coordinate multiple vendors.',
-      },
-      {
-        title: 'Brand-Forward Presentation',
-        description:
-          'Every element — box, tissue, insert, and card — is designed to reinforce your brand identity at the moment of unboxing.',
-      },
-      {
-        title: 'Scalable Fulfilment',
-        description:
-          'Whether it is 50 boxes or 5,000, we handle assembly, personalization, and dispatch with consistent quality.',
-      },
-    ],
-    featured: false,
   },
 ];
 
